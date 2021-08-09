@@ -18,6 +18,5 @@ class Die:
     def set_face(self, value):
       self.__face = value
 
-    
     def __str__(self):
       return '{self.currentValue}'.format(self)
