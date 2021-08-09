@@ -1,4 +1,5 @@
 from hand import Hand
+from rule import Rule
 
 # keeps track of rules and current points
 class ScoreTable:
