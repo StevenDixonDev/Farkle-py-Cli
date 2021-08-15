@@ -14,3 +14,7 @@ class Rule(ABC):
   @abstractmethod
   def minumum(self):
     pass
+
+  @abstractmethod
+  def check(self, hand: Hand):
+    pass
